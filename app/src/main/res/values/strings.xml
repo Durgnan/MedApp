@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MedApp</string>
+    <string name="title_activity_maps_ambulance">Map</string>
+    <string name="title_activity_maps_patient">Map</string>
+    <string-array name="bg">
+        <item>A Positive</item>
+        <item>A Negative</item>
+        <item>B Positive</item>
+        <item>B Negative</item>
+        <item>O Positive</item>
+        <item>O Negative</item>
+        <item>AB Positive</item>
+        <item>AB Negative</item>
+    </string-array>
+    <string name="police">9472987177</string><!--Add Numbers here-->
+    <string name="forest">9590189287</string>
+    <string name="electricity">8310336673</string>
+</resources>

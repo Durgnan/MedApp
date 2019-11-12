@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:id="@+id/settings"
+        android:title="Add Details"
+         />
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:id="@+id/logout"
+        android:title="Add Details"
+        />
+
+</menu>

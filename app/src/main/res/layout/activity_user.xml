@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sv">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Emergency Contacts"
+                android:id="@+id/tvAEC"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_below="@+id/tvAEC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textAlignment="center"
+                android:id="@+id/etECEmail"
+                android:layout_marginVertical="5dp"
+                />
+
+            <EditText
+                android:layout_below="@+id/etECEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:id="@+id/etECName"
+                android:layout_marginVertical="5dp"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Phone Number"
+                android:textAlignment="center"
+                android:layout_below="@+id/etECName"
+                android:id="@+id/etECPhone"
+                android:layout_marginVertical="10dp"
+
+
+                />
+
+            <Button
+                android:id="@+id/btnAddEC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etECPhone"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="90dp"
+
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/round_bg"
+                android:padding="20dp"
+                android:text="ADD"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="90dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:layout_below="@id/etECPhone"
+                android:layout_toRightOf="@+id/btnAddEC"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnViewEC"
+                android:padding="20dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Friends"
+                android:id="@+id/tvAF"
+                android:layout_below="@+id/btnAddEC"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:layout_below="@+id/tvAF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textAlignment="center"
+                android:id="@+id/etFEmail"
+                android:layout_marginVertical="5dp"
+                />
+            <EditText
+                android:layout_below="@+id/etFEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textAlignment="center"
+                android:id="@+id/etFName"
+                android:layout_marginVertical="5dp"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="Phone Number"
+                android:textAlignment="center"
+                android:layout_below="@+id/etFName"
+                android:id="@+id/etFPhone"
+                android:layout_marginVertical="10dp"
+
+
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="90dp"
+                android:layout_below="@+id/etFPhone"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnAddF"
+                android:padding="20dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="90dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:layout_below="@id/etFPhone"
+                android:layout_toRightOf="@+id/btnAddF"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnViewF"
+                android:padding="20dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginHorizontal="20dp"
+                />
+
+            <TextView
+                android:layout_below="@+id/btnAddF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Medical History"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/tvAMH"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+
+            <EditText
+                android:layout_below="@+id/tvAMH"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textAlignment="center"
+                android:id="@+id/etDate"
+                android:layout_marginVertical="5dp"
+                />
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/tvAMH"
+                android:layout_toRightOf="@+id/etDate"
+                android:id="@+id/btnDate"
+                android:background="@drawable/ic_date_range_black_24dp"/>
+
+            <EditText
+                android:layout_below="@+id/etDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Disease"
+                android:textAlignment="center"
+                android:id="@+id/etMHtext"
+                android:layout_marginVertical="5dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:layout_below="@+id/etMHtext"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnAddMH"
+                android:padding="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="90dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginHorizontal="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="90dp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VIEW"
+                android:layout_below="@id/etMHtext"
+                android:layout_toRightOf="@+id/btnAddMH"
+                android:layout_marginBottom="30dp"
+                android:id="@+id/btnViewMH"
+                android:padding="20dp"
+                android:background="@drawable/round_bg"
+                android:layout_marginHorizontal="20dp"
+                />
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
